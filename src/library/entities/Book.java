@@ -7,7 +7,7 @@ public class Book implements Serializable {
 	
 	private String tItLe;
 	private String AuThOr;
-	private String CALLNO;
+	private String callNo;//variable name change
 	private int iD;
 	
 	private enum sTaTe { AVAILABLE, ON_LOAN, DAMAGED, RESERVED };
